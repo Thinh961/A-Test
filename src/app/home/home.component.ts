@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Products } from '../_models/products.model';
+import { ProductsService } from '../_services/products.service';
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  datas:Products[]=[];
+
+  constructor(
+    private productService: ProductsService,
+  ) { }
 
   ngOnInit() {
+    this.getAllProducts();
+  }
+
+  getAllProducts() {
+    this.productService.getAll().subscribe((response: any) => {
+      console.log(response);
+      this.datas = response;
+    })
   }
 
 }

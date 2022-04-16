@@ -5,23 +5,26 @@
       "name": "Test1",
       "description": "Sản phẩm mới",
       "price": 500000,
+      "quantity": 1000,
       "images": "Đây là ảnh"
     },
     {
+      "id": 2,
       "name": "test2",
-      "description": "sả phẩm 2",
-      "price": "100000",
-      "images": "anh2.jpg",
-      "id": 2
+      "description": "sản phẩm 2",
+      "price": 100000,
+      "quantity": 1000,
+      "images": "anh2.jpg"
     },
     {
+      "id": 3,
       "name": "test3",
       "description": "sản phẩm 3",
-      "price": "100000",
+      "price": 100000,
+      "quantity": 1000,
       "images": [
         "anh31.jpg", "anh32.jpg"
-      ],
-      "id": 3
+      ]
     }
   ]
 }
