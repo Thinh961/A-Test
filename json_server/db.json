@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Test1",
+      "description": "Sản phẩm mới",
+      "price": 500000,
+      "images": "Đây là ảnh"
+    },
+    {
+      "name": "test2",
+      "description": "sả phẩm 2",
+      "price": "100000",
+      "images": "anh2.jpg",
+      "id": 2
+    },
+    {
+      "name": "test3",
+      "description": "sản phẩm 3",
+      "price": "100000",
+      "images": [
+        "anh31.jpg", "anh32.jpg"
+      ],
+      "id": 3
+    }
+  ]
+}
