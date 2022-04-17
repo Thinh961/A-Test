@@ -19,6 +19,7 @@
 .small-img-row {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .col-2 img {
@@ -105,4 +106,8 @@ p {
 
 #product-detail {
     margin-top: 150px;
+}
+
+.mt-5 {
+    margin-top: 5px;
 }
