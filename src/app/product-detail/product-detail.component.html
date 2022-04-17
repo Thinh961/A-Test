@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div class="small-container single-product" id="product-detail">
+    <div class="row">
+        <div class="col-2">
+            <img id="ProductImg" src="../../assets/images/populer-products/p1.png" width="100%" alt="">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img class="small-img" src="../../assets/images/populer-products/p2.png" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img class="small-img" src="../../assets/images/populer-products/p3.png" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img class="small-img" src="../../assets/images/populer-products/p1.png" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home / Products</p>
+            <h1>{{products.name}}</h1>
+            <h4>{{products.price | number}} VNĐ</h4>
+            <!-- <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>LARGE</option>
+                <option>MEDIUM</option>
+                <option>SMALL</option>
+            </select> -->
+            <input type="number" value="1">
+            <a href="" class="btn-add">Add to Cart</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>{{products.description}}</p>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

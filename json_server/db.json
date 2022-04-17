@@ -2,24 +2,76 @@
   "products": [
     {
       "id": 1,
-      "name": "Test1",
-      "description": "Sản phẩm mới",
+      "name": "Sản Phẩm 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 500000,
       "quantity": 1000,
       "images": "Đây là ảnh"
     },
     {
       "id": 2,
-      "name": "test2",
-      "description": "sản phẩm 2",
+      "name": "Sản Phẩm 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 100000,
       "quantity": 1000,
       "images": "anh2.jpg"
     },
     {
       "id": 3,
-      "name": "test3",
-      "description": "sản phẩm 3",
+      "name": "Sản Phẩm 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 150000,
+      "quantity": 1000,
+      "images": [
+        "anh31.jpg", "anh32.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sản Phẩm 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 200000,
+      "quantity": 1000,
+      "images": "Đây là ảnh"
+    },
+    {
+      "id": 5,
+      "name": "Sản Phẩm 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 300000,
+      "quantity": 1000,
+      "images": "anh2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sản Phẩm 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 250000,
+      "quantity": 1000,
+      "images": [
+        "anh31.jpg", "anh32.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sản Phẩm 7",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 1000000,
+      "quantity": 1000,
+      "images": "Đây là ảnh"
+    },
+    {
+      "id": 8,
+      "name": "Sản Phẩm 8",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 450000,
+      "quantity": 1000,
+      "images": "anh2.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sản Phẩm 9",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.  ",
       "price": 100000,
       "quantity": 1000,
       "images": [
