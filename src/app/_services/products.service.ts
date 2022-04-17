@@ -22,4 +22,10 @@ export class ProductsService {
     return this.httpClient.get<Products[]>(apiUrl).pipe(
     )
   }
+
+  getProductsId(id: number):Observable<Products> {
+    return this.httpClient.get<Products>(`${apiUrl}/${id}`).pipe(
+    )
+  }
+
 }

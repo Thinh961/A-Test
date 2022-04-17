@@ -7,8 +7,8 @@
 				</div><!--/.section-header-->
 				<div class="new-arrivals-content">
 					<div class="row">
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival" *ngFor="let item of datas">
+						<div class="col-md-3 col-sm-4" *ngFor="let item of datas">
+							<div class="single-new-arrival">
 								<div class="single-new-arrival-bg">
 									<img src="assets/images/collection/arrivals1.png" alt="new-arrivals images">
 									<div class="single-new-arrival-bg-overlay"></div>
@@ -26,7 +26,7 @@
 										</p>
 									</div>
 								</div>
-								<h4><a href="#">{{item.name}}</a></h4>
+								<h4><a routerLink="/product-detail/{{item.id}}">{{item.name}}</a></h4>
 								<p class="arrival-product-price">{{item.price | number}} VNĐ</p>
 							</div>
 						</div>
