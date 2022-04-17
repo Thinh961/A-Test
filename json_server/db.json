@@ -23,7 +23,7 @@
       "price": 150000,
       "quantity": 1000,
       "images": [
-        "json_server/images/arrivals3.png", "json_server/images/arrivals1.png"
+        "json_server/images/arrivals3.png"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "price": 250000,
       "quantity": 1000,
       "images": [
-        "json_server/images/arrivals2.png", "json_server/images/arrivals3.png"
+        "json_server/images/arrivals2.png"
       ]
     },
     {
@@ -75,7 +75,7 @@
       "price": 100000,
       "quantity": 1000,
       "images": [
-        "json_server/images/slider3.png", "json_server/images/slider1.png"
+        "json_server/images/slider3.png"
       ]
     }
   ]
