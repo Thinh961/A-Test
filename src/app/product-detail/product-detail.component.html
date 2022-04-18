@@ -37,37 +37,4 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="section-header">
-        <h2>new arrivals</h2>
-    </div><!--/.section-header-->
-    <div class="new-arrivals-content">
-        <div class="row">
-            <div class="col-md-3 col-sm-4" *ngFor="let item of datas">
-                <div class="single-new-arrival">
-                    <div class="single-new-arrival-bg">
-                        <img src="{{item.images}}" alt="new-arrivals images">
-                        <div class="single-new-arrival-bg-overlay"></div>
-                        <!-- <div class="sale bg-1">
-                            <p>sale</p>
-                        </div> -->
-                        <div class="new-arrival-cart">
-                            <p>
-                                <span class="lnr lnr-cart"></span>
-                                <a href="#">add <span>to </span> cart</a>
-                            </p>
-                            <p class="arrival-review pull-right">
-                                <span class="lnr lnr-heart"></span>
-                                <span class="lnr lnr-frame-expand"></span>
-                            </p>
-                        </div>
-                    </div>
-                    <h4><a routerLink="/product-detail/{{item.id}}">{{item.name}}</a></h4>
-                    <p class="arrival-product-price">{{item.price | number}} VNĐ</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!--/.container-->
-
 <app-footer></app-footer>

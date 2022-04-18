@@ -5,7 +5,7 @@
       "name": "Sản Phẩm 1",
       "description": "#SP1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 500000,
-      "quantity": 1000,
+      "quantity": 100,
       "images": "json_server/images/arrivals1.png"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Sản Phẩm 2",
       "description": "#SP2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 100000,
-      "quantity": 1000,
+      "quantity": 99,
       "images": "json_server/images/arrivals2.png"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Sản Phẩm 3",
       "description": "#SP3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 150000,
-      "quantity": 1000,
+      "quantity": 50,
       "images": [
         "json_server/images/arrivals3.png"
       ]
@@ -31,7 +31,7 @@
       "name": "Sản Phẩm 4",
       "description": "#SP4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 200000,
-      "quantity": 1000,
+      "quantity": 90,
       "images": "json_server/images/arrivals4.png"
     },
     {
@@ -39,7 +39,7 @@
       "name": "Sản Phẩm 5",
       "description": "#SP5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 300000,
-      "quantity": 1000,
+      "quantity": 20,
       "images": "json_server/images/arrivals7.png"
     },
     {
@@ -47,7 +47,7 @@
       "name": "Sản Phẩm 6",
       "description": "#SP6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 250000,
-      "quantity": 1000,
+      "quantity": 45,
       "images": [
         "json_server/images/arrivals2.png"
       ]
@@ -57,26 +57,50 @@
       "name": "Sản Phẩm 7",
       "description": "#SP7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 1000000,
-      "quantity": 1000,
+      "quantity": 72,
       "images": "json_server/images/slider1.png"
     },
     {
       "id": 8,
       "name": "Sản Phẩm 8",
-      "description": "#SP8Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "description": "#SP8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
       "price": 450000,
-      "quantity": 1000,
+      "quantity": 50,
       "images": "json_server/images/slider2.png"
     },
     {
       "id": 9,
       "name": "#SP9 Sản Phẩm 9",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.  ",
+      "description": "#SP9 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.  ",
       "price": 100000,
-      "quantity": 1000,
+      "quantity": 30,
       "images": [
         "json_server/images/slider3.png"
       ]
+    },
+    {
+      "id": 10,
+      "name": "Sản Phẩm 10",
+      "description": "#SP10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 450000,
+      "quantity": 50,
+      "images": "json_server/images/slider2.png"
+    },
+    {
+      "id": 11,
+      "name": "Sản Phẩm 11",
+      "description": "#SP11 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 450000,
+      "quantity": 50,
+      "images": "json_server/images/slider2.png"
+    },
+    {
+      "id": 12,
+      "name": "Sản Phẩm 12",
+      "description": "#SP12 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio culpa veritatis aliquam reprehenderit necessitatibus tenetur corrupti ipsum magnam? Voluptatum doloribus iure nesciunt rerum praesentium nulla doloremque maiores consectetur velit.",
+      "price": 450000,
+      "quantity": 50,
+      "images": "json_server/images/slider2.png"
     }
   ]
 }

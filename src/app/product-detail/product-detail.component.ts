@@ -10,7 +10,6 @@ import { ProductsService } from '../_services/products.service';
 })
 export class ProductDetailComponent implements OnInit {
 
-  datas:Products[]=[];
   products = new Products
 
   constructor(
@@ -20,8 +19,6 @@ export class ProductDetailComponent implements OnInit {
 
   ngOnInit() {
     this.getRoute(this.route.snapshot.params['id']);
-    console.log(this.datas);
-    
   }
 
   getRoute(id:any){
