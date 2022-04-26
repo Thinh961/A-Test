@@ -1,3 +1,21 @@
-<p>
-  to-do-list works!
-</p>
+<!-- <div id="todoList" class="header">
+  <h2>ToDo List</h2>
+  <form action="">
+    <input type="text" id="myWork"  placeholder="Nhập công việc">
+    <button type="submit" class="addBtn">Add</button>
+  </form>
+</div> -->
+
+<div class="subscribe-box header" id="todoList">
+  <h2>ToDo List</h2>
+  <form  [formGroup]="todoForm" (ngSubmit)="add()" class="subscribe">
+    <input type="text" formControlName="title" id="myWork" placeholder="Nhập công việc"/>
+    <button type="submit" [disabled]="todoForm.invalid">Thêm</button>
+  </form>
+  <ul *ngFor="let work of works; let i = index" class="ull">
+    <li>
+      {{work}} 
+      <span (click)="delete(i)">X</span> 
+    </li>
+  </ul>
+</div>
