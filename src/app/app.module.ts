@@ -9,6 +9,7 @@ import { FooterComponent } from './_components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { CarouselComponent } from './_components/carousel/carousel.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CarouselComponent } from './_components/carousel/carousel.component';
     FooterComponent,
     ProductDetailComponent,
     CarouselComponent,
+    ToDoListComponent,
   ],
   imports: [
     BrowserModule,

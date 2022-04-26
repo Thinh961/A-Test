@@ -1,3 +1,4 @@
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
@@ -7,6 +8,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 const routes: Routes = [
   {path: 'home', component:HomeComponent},
   {path: 'product-detail/:id', component:ProductDetailComponent},
+  {path: 'to-do-list', component:ToDoListComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
