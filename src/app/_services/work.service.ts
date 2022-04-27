@@ -9,7 +9,7 @@ export class WorkService {
 
   constructor() { }
 
-  findAll(): any {
+  getAll(): any {
     if(localStorage.getItem('todoList') != null) {
       return JSON.parse(localStorage.getItem('todoList'));
     }

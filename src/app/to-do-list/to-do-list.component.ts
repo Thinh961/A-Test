@@ -30,12 +30,12 @@ export class ToDoListComponent implements OnInit {
     this.todoForm = this.formBuilder.group({
       title: ['', [Validators.required]]
     });
-    this.works = this.workService.findAll();
+    this.works = this.workService.getAll();
   }
   
   add(): void {
     this.workService.add(this.todoForm.value.title);
-    this.works = this.workService.findAll();
+    this.works = this.workService.getAll();
     this.content = '';
   }
 
@@ -56,7 +56,7 @@ export class ToDoListComponent implements OnInit {
     var result = confirm('Bạn có muốn xóa!')
     if(result) {
       this.workService.delete(index);
-      this.works = this.workService.findAll();
+      this.works = this.workService.getAll();
     }
   }
 
