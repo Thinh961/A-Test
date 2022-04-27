@@ -5,6 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class WorkService {
 
+  list: string[] = [];
+
   constructor() { }
 
   findAll(): any {
@@ -16,9 +18,8 @@ export class WorkService {
 
   add(title: string): void {
     if(localStorage.getItem('todoList') == null){
-      let list: string[] = [];
-      list.push(title);
-      localStorage.setItem('todoList', JSON.stringify(list));
+      this.list.push(title);
+      localStorage.setItem('todoList', JSON.stringify(this.list));
     } else {
       let list: string[] = JSON.parse(localStorage.getItem('todoList'));
       list.push(title);
@@ -26,9 +27,8 @@ export class WorkService {
     }
   }
 
-  edit(index: number): void{
-    console.log(index);
-    let list: string[] = JSON.parse(localStorage.getItem('todoList'));
+  update(list: string[]): void {
+    localStorage.setItem('todoList', JSON.stringify(list));
   }
 
   delete(index: number): void {
@@ -36,4 +36,5 @@ export class WorkService {
     list.splice(index, 1);
     localStorage.setItem('todoList', JSON.stringify(list));
   }
+
 }

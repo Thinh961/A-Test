@@ -1,27 +1,29 @@
 <div class="subscribe-box header" id="todoList">
   <h2>ToDo List</h2>
-  <form  [formGroup]="todoForm" (ngSubmit)="add()" class="subscribe">
-    <input type="text" formControlName="title" placeholder="Nhập công việc"/>
-    <button type="submit" [disabled]="todoForm.invalid">Thêm</button>
+  <form  [formGroup]="todoForm" (ngSubmit)="isEdit ? update() : add()" class="subscribe">
+    <input type="text" formControlName="title" [(ngModel)]="content" id="content" placeholder="Nhập công việc"/>
+    <button type="submit" [disabled]="todoForm.invalid">{{ isEdit ? 'Cập nhật' : 'Thêm' }}</button>
   </form>
 </div>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">List công việc</th>
-      <th scope="col">Tác vụ</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let work of works; let i = index">
-    <tr>
-      <th scope="row" class="badge badge-primary badge-pill">{{i}}</th>
-      <td>{{work}}</td>
-      <td>
-        <span class="edit-btn" (click)="edit(i)">Sửa</span> 
-        <span class="del-btn" (click)="deletee(i)">Xóa</span> 
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div style="max-width: 1000px; margin: 0 auto">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Công việc</th>
+        <th scope="col" style="text-align: right; padding-right: 20px;">Hành động</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let work of works; let i = index">
+      <tr>
+        <td scope="row">{{i}}</td>
+        <td>{{work}}</td>
+        <td style="text-align: right">
+          <span class="edit-btn" (click)="edit(i)">Sửa</span> 
+          <span class="del-btn" (click)="delete(i)">Xóa</span> 
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

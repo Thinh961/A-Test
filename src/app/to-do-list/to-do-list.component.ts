@@ -15,9 +15,15 @@ export class ToDoListComponent implements OnInit {
 
   works: string[]
 
+  isEdit: boolean = false;
+
+  id: number = 0;
+
+  content: string
+
   constructor(
     private workService: WorkService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
   ) { }
 
   ngOnInit() {
@@ -30,13 +36,23 @@ export class ToDoListComponent implements OnInit {
   add(): void {
     this.workService.add(this.todoForm.value.title);
     this.works = this.workService.findAll();
+    this.content = '';
   }
 
   edit(index: number): void{
-    this.workService.edit(index)
+    this.isEdit = true;
+    this.id = index;
+    this.content = this.works[index]
   }
 
-  deletee(index: number): void {
+  update() {
+    this.works[this.id] = this.content;
+    this.workService.update(this.works);
+    this.isEdit = false;
+    this.content = '';
+  }
+
+  delete(index: number): void {
     var result = confirm('Bạn có muốn xóa!')
     if(result) {
       this.workService.delete(index);
