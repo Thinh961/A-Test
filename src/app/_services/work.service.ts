@@ -26,6 +26,11 @@ export class WorkService {
     }
   }
 
+  edit(index: number): void{
+    console.log(index);
+    let list: string[] = JSON.parse(localStorage.getItem('todoList'));
+  }
+
   delete(index: number): void {
     let list: string[] = JSON.parse(localStorage.getItem('todoList'));
     list.splice(index, 1);

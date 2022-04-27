@@ -32,7 +32,11 @@ export class ToDoListComponent implements OnInit {
     this.works = this.workService.findAll();
   }
 
-  delete(index: number): void {
+  edit(index: number): void{
+    this.workService.edit(index)
+  }
+
+  deletee(index: number): void {
     var result = confirm('Bạn có muốn xóa!')
     if(result) {
       this.workService.delete(index);
